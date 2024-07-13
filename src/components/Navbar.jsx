@@ -27,7 +27,7 @@ export default function Navbar1() {
         <Navbar.Brand as={Link} to="/dashboard" className="d-flex align-items-center">
           <img
             alt=""
-            src="../src/assets/unilogo2.png"
+            src="./src/assets/unilogo2.png"
             width="60"
             height="60"
             className="d-inline-block align-center"
