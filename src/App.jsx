@@ -44,7 +44,7 @@ function App() {
             <Route path='/login' element={<div className='login-page-content'><Login /></div>} />
             <Route path='/dashboard' element={<PrivateRoute roles={['student']}><div className='page-content'><Dashboard /></div></PrivateRoute>} />
             <Route path='/student_applications' element={<PrivateRoute roles={['student']}><div className='page-content'><Student_Applications /></div></PrivateRoute>} />
-            <Route path='/updateStudentProfile/:registrationNo' element={<PrivateRoute roles={['student']}><div className='page-content'><UpdateStudentProfile /></div></PrivateRoute>} />
+            <Route path='/updateStudentProfile/:registrationNo' element={<div className='page-content'><UpdateStudentProfile /></div>} />
             <Route path='/dashboard_admin' element={<PrivateRoute roles={['admin']}><div className='page-content'><Dashboard_Admin /></div></PrivateRoute>} />
             <Route path='/dashboard_faculty' element={<PrivateRoute roles={['faculty']}><div className='page-content'><Dashboard_Faculty /></div></PrivateRoute>} />
             <Route path='/faculty_applications' element={<PrivateRoute roles={['faculty']}><div className='page-content'><Faculty_Applications /></div></PrivateRoute>} />
