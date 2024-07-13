@@ -8,6 +8,6 @@ export default defineConfig({
     port: process.env.PORT || 3000,
   },
   preview: {
-    port: process.env.PORT || 3000, // Ensure the preview command uses the correct port
+    port: process.env.PORT || 3000,
   }
 })
